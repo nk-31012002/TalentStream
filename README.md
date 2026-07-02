@@ -44,10 +44,13 @@ Ensure you have the Flutter SDK environment configured correctly before pulling 
    cd taletstream
 
 2. **Retrieve package dependencies:**
-   ```flutter pub get```
+   ```bash
+   flutter pub get
 
 3. **Verify analyzer guidelines and lint rules:**
-   ```flutter analyze```
+   ```bash
+   flutter analyze
 
-4. **Launch the build on a connected test target:**
-   ```flutter run --debug```
+5. **Launch the build on a connected test target:**
+   ```bash
+   flutter run --debug
