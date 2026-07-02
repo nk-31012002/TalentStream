@@ -182,7 +182,7 @@ class _JobDetailScreenState extends State<JobDetailScreen> {
       child: ElevatedButton.icon(
         icon: const Icon(Icons.phone, color: Colors.white),
         label: Text(
-          widget.job.buttonText.isNotEmpty ? widget.job.buttonText : 'Call HR',
+          widget.job.buttonText.isNotEmpty ? widget.job.buttonText : 'Call Employer',
           style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
         ),
         style: ElevatedButton.styleFrom(
