@@ -40,7 +40,7 @@ Ensure you have the Flutter SDK environment configured correctly before pulling 
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/nk-31012002/TalentStream.git](https://github.com/nk-31012002/TalentStream.git)
+   git clone https://github.com/nk-31012002/TalentStream.git
    cd taletstream
 
 2. **Retrieve package dependencies:**
