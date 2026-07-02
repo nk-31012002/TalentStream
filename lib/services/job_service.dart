@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import '../models/job.dart';
 
 class JobService {
-  final String baseUrl = 'https://testapi.getlokalapp.com/common/jobs';
+  final String baseUrl = 'https://testapi.talentstream.com/common/jobs';
 
   Future<List<Job>> fetchJobs(int page) async {
     final response = await http.get(Uri.parse('$baseUrl?page=$page'));
